@@ -9,7 +9,6 @@ import FriendList from "./components/FriendList/FriendList";
 import friends from "./components/datafile/friends.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import transactions from "./components/datafile/transactions.json";
-import Section from "./components/Section/Section";
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import css from "./Profile.module.css";
-function Profile = ({ name, tag, location, image, stats }) => {
+
+function Profile ({ name, tag, location, image, stats })  {
   return (
     <div className={css.wrapper}>
       <div className={css.profile}>
@@ -25,6 +26,6 @@ function Profile = ({ name, tag, location, image, stats }) => {
       </ul>
     </div>
   );
-};
+}
 
 export default Profile;
