@@ -8,10 +8,4 @@ const Section = ({ title, children }) => {
   };
   
   export default Section;
-  // function Section({}) {
-  //   return (
-  //     <section>
-  //       <h1>title</h1>
-  //     </section>
-  //   );
-  // }
+  
