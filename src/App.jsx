@@ -11,7 +11,7 @@ import transactions from "./components/datafile/transactions.json";
 
 function App() {
   return (
-    <div >
+    <section>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -21,7 +21,7 @@ function App() {
       />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-    </div>
+    </section>
   );
 }
 export default App;
