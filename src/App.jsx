@@ -1,8 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
-
+// import "./App.css";
 import Profile from "./components/Profile/Profile";
 import userData from "./components/datafile/userdata.json";
 import FriendList from "./components/FriendList/FriendList";
@@ -12,7 +11,7 @@ import transactions from "./components/datafile/transactions.json";
 
 function App() {
   return (
-    <Section title={null}>
+    <div >
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -22,7 +21,7 @@ function App() {
       />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-    </Section>
+    </div>
   );
 }
 export default App;
